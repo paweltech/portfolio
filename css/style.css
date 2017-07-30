@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    color: #291f1a;
+    font-weight: 300;
+    margin 0;
+}
+/* main menu styles start */
+#main-nav {
+    position: fixed;
+    background-color: #fff;
+    width: 100%;
+    
+    
+}
+
+#main-nav > ul {
+      margin: 0;
+      float: right;
+   
+}
+
+#main-nav > ul > li {
+    display: inline-block;
+    list-style: none;
+    
+    
+}
+#main-nav >ul > li > a {
+    color: #1ac056;
+    font-weight: 300;
+    text-decoration: none;
+}
+
+#main-nav >ul >li >a:hover {
+    color: #291f1a;
+}
