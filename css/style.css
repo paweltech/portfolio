@@ -9,11 +9,31 @@ body{
     font-weight: 300;
     margin 0;
 }
+h1, h2, h3, h4, h5, h6 {
+    text-align: center;
+}
+
+section {
+    padding: 0 80px 100px;
+    width: 100%;
+}
+
+section h2 {
+    font-size: 30px;
+    font-weight: 300;
+    margin-top: 60px;
+    margin-bottom: 35px;
+}
+
+
 /* main menu styles start */
 #main-nav {
     position: fixed;
     background-color: #fff;
     width: 100%;
+    top: 0;
+    right: 0;
+    
     
     
 }
@@ -21,7 +41,6 @@ body{
 #main-nav > ul {
       margin: 0;
       float: right;
-   
 }
 
 #main-nav > ul > li {
@@ -30,12 +49,56 @@ body{
     
     
 }
-#main-nav >ul > li > a {
+#main-nav > ul > li > a {
     color: #1ac056;
     font-weight: 300;
     text-decoration: none;
 }
 
-#main-nav >ul >li >a:hover {
+#main-nav > ul > li > a:hover {
     color: #291f1a;
+}
+
+#main-header {
+    background-image: url(../img/header-background.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    
+}
+
+#main-header .main-content {
+    padding: 30vh;
+}
+
+#main-header .main-header-content h1 {
+    font-family: 'Roboto', sans-serif;
+    
+}
+#about {
+    background-color: #f9fcfe;
+}
+#about > figure {
+    width: 50%;
+    float: left;
+    margin: 0;
+}
+
+#about > article {
+    width: 50%;
+    float: left;
+}
+#about > figure > img {
+    max-height: 350px;
+    max-width: 100%;
+    border: 15px solid #fff;
+    border-radius: 15%;
+}
+
+#skills > p {
+    text-align: center;
+}
+#skills div#skills-icons
+#skills div#skills-icons figure {
+    display: inline-block;
 }
